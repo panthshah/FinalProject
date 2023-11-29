@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/uml2/2.2.0/GenModel"
+    modelDirectory="/FinalProject/src" modelPluginID="FinalProject"
+    modelName="FinalProject" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.uml2.uml.ecore.importer" complianceLevel="17.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/importer/org.eclipse.uml2.uml.ecore.importer">
+    <details key="OPPOSITE_ROLE_NAMES" value="IGNORE"/>
+    <details key="DUPLICATE_FEATURES" value="DISCARD"/>
+    <details key="ANNOTATION_DETAILS" value="PROCESS"/>
+    <details key="PROPERTY_DEFAULT_EXPRESSIONS" value="IGNORE"/>
+    <details key="DUPLICATE_FEATURE_INHERITANCE" value="DISCARD"/>
+    <details key="COMMENTS" value="PROCESS"/>
+    <details key="DERIVED_FEATURES" value="PROCESS"/>
+    <details key="SUPER_CLASS_ORDER" value="PROCESS"/>
+    <details key="DUPLICATE_OPERATION_INHERITANCE" value="DISCARD"/>
+    <details key="REDEFINING_OPERATIONS" value="REPORT"/>
+    <details key="INVARIANT_CONSTRAINTS" value="PROCESS"/>
+    <details key="UNION_PROPERTIES" value="REPORT"/>
+    <details key="DUPLICATE_OPERATIONS" value="DISCARD"/>
+    <details key="NON_API_INVARIANTS" value="IGNORE"/>
+    <details key="CAMEL_CASE_NAMES" value="IGNORE"/>
+    <details key="SUBSETTING_PROPERTIES" value="REPORT"/>
+    <details key="OPERATION_BODIES" value="IGNORE"/>
+    <details key="ECORE_TAGGED_VALUES" value="PROCESS"/>
+    <details key="UNTYPED_PROPERTIES" value="REPORT"/>
+    <details key="REDEFINING_PROPERTIES" value="REPORT"/>
+    <details key="INVOCATION_DELEGATES" value="IGNORE"/>
+    <details key="VALIDATION_DELEGATES" value="IGNORE"/>
+  </genAnnotations>
+  <foreignModel>FinalProject.uml</foreignModel>
+  <genPackages xsi:type="genmodel:GenPackage" prefix="FinalProject" disposableProviderFactory="true"
+      ecorePackage="FinalProject.ecore#/">
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="FinalProject.ecore#//User">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/UserID"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/FirstName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/MiddleName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/LastName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/EmailId"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/Password"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/ContactNumber"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/AadharCardNumber"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/DrivingLicenseNumber"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/Address"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/EmergencyContactNumber"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//User/rewardPoints"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference FinalProject.ecore#//User/transaction"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//User/Constraint20">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//User/Constraint20/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//User/Constraint20/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//User/Constraint21">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//User/Constraint21/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//User/Constraint21/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//User/Constraint22">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//User/Constraint22/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//User/Constraint22/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//User/user"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//User/updatedetails"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//User/purchaserewardpoints">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//User/purchaserewardpoints/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//User/redeemrewardpoints">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//User/redeemrewardpoints/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//User/getUserStats">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//User/getUserStats/_"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="FinalProject.ecore#//Transaction">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Transaction/TransactionId"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Transaction/UserID"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Transaction/RewardPurchased"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Transaction/AmountPaid"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Transaction/DateTime"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Transaction/displayTransactionDetails"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Transaction/redeemPoints"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="FinalProject.ecore#//Coupon">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Coupon/CouponId"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Coupon/UserID"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Coupon/OfferId"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Coupon/getCouponId">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Coupon/getCouponId/_"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="FinalProject.ecore#//Offer">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Offer/OfferID"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Offer/ProviderID"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Offer/OfferType"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Offer/DiscountPercentage"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Offer/MaxDeductableAmnt"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Offer/ValidUpto"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Offer/RewardPoints"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference FinalProject.ecore#//Offer/coupon"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Offer/Constraint20">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Offer/Constraint20/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Offer/Constraint20/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Offer/getOffer">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Offer/getOffer/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Offer/getCouponCode">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Offer/getCouponCode/_"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="FinalProject.ecore#//Provider">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Provider/ProviderID"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Provider/Name"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Provider/Email"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Provider/GSTIN"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Provider/Address"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference FinalProject.ecore#//Provider/offer"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Provider/Constraint20">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Provider/Constraint20/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Provider/Constraint20/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Provider/getOfferDetails"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="FinalProject.ecore#//Validator">
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Validator/isNameValid">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Validator/isNameValid/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Validator/isEmailValid">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Validator/isEmailValid/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Validator/isPasswordValid">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Validator/isPasswordValid/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Validator/isContactNumberValid">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Validator/isContactNumberValid/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Validator/isAadharCardNumberValid">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Validator/isAadharCardNumberValid/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Validator/isVehicleTypeValid">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Validator/isVehicleTypeValid/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Validator/isMileageValid">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Validator/isMileageValid/_"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="FinalProject.ecore#//Vehicle">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Vehicle/RegistrationNumber"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Vehicle/InsuranceNumber"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Vehicle/OwnerID"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Vehicle/VehicelType"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Vehicle/Mileage"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference FinalProject.ecore#//Vehicle/ride"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Vehicle/Constraint20">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Vehicle/Constraint20/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Vehicle/Constraint20/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Vehicle/Vehicle"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Vehicle/UpdateDetails"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="FinalProject.ecore#//Ride">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Ride/UserID"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Ride/Date"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference FinalProject.ecore#//Ride/Vehicle"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Ride/ride"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Ride/addPooler"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Ride/calculateRewardPoints">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Ride/calculateRewardPoints/_"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Ride/displayReducedCF">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="FinalProject.ecore#//Ride/displayReducedCF/_"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="FinalProject.ecore#//Pooler">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Pooler/startLocation"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Pooler/startTime"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Pooler/destination"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute FinalProject.ecore#//Pooler/destinationTime"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference FinalProject.ecore#//Pooler/ride"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Pooler/pooler"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Pooler/updateRewardPoints"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="FinalProject.ecore#//Pooler/transferRewardPoints"/>
+    </genClasses>
+  </genPackages>
+  <genPackages xsi:type="genmodel:GenPackage" prefix="Types" basePackage="org.eclipse.uml2"
+      disposableProviderFactory="true" ecorePackage="types.ecore#/">
+    <genDataTypes xsi:type="genmodel:GenDataType" ecoreDataType="types.ecore#//Boolean"/>
+    <genDataTypes xsi:type="genmodel:GenDataType" ecoreDataType="types.ecore#//Integer"/>
+    <genDataTypes xsi:type="genmodel:GenDataType" ecoreDataType="types.ecore#//Real"/>
+    <genDataTypes xsi:type="genmodel:GenDataType" ecoreDataType="types.ecore#//UnlimitedNatural"/>
+    <genDataTypes xsi:type="genmodel:GenDataType" ecoreDataType="types.ecore#//String"/>
+  </genPackages>
+</genmodel:GenModel>
